@@ -117,7 +117,6 @@ cfg_path = "/home/mist/yolov3_spp/cfg/yolov3-spp.cfg"
  
 ## 6 数据集，本例程使用的是PASCAL VOC2012数据集
 * ```Pascal VOC2012``` train/val数据集下载地址：http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar
-* 如果不了解数据集或者想使用自己的数据集进行训练，请参考我的bilibili：https://b23.tv/F1kSCK
 
 ## 7 使用方法
 * 确保提前准备好数据集
@@ -125,19 +124,19 @@ cfg_path = "/home/mist/yolov3_spp/cfg/yolov3-spp.cfg"
 * 若要使用单GPU训练或者使用CPU训练，直接使用train.py训练脚本
 * 若要使用多GPU训练，使用```python -m torch.distributed.launch --nproc_per_node=8 --use_env train_multi_GPU.py```指令,```nproc_per_node```参数为使用GPU数量
 
-## 如果对YOLOv3 SPP网络原理不是很理解可参考我的bilibili
-[https://www.bilibili.com/video/BV1yi4y1g7ro?p=3](https://www.bilibili.com/video/BV1yi4y1g7ro?p=3)
-
-## 进一步了解该项目，以及对YOLOv3 SPP代码的分析可参考我的bilibili
-[https://www.bilibili.com/video/BV1t54y1C7ra](https://www.bilibili.com/video/BV1t54y1C7ra)
-
 ## YOLOv3 SPP框架图
 ![yolov3spp](https://github.com/Zhang-Jing-Xuan/YoloV3_SPP/blob/main/yolov3spp.png) 
 图片来源：https://github.com/WZMIAOMIAO/deep-learning-for-image-processing/raw/master/pytorch_object_detection/yolov3_spp/yolov3spp.png
 
-## 参考链接：
-YOLOv3 SPP网络原理：
+## 8 测试结果
+![result](https://github.com/Zhang-Jing-Xuan/YoloV3_SPP/blob/main/test_result.jpg)
+
+## 参考链接
+PascalVOC数据集介绍以及使用自己的数据集进行训练:
+[https://b23.tv/F1kSCK](https://b23.tv/F1kSCK)
+
+YOLOv3 SPP网络原理:
 [https://www.bilibili.com/video/BV1yi4y1g7ro?p=3](https://www.bilibili.com/video/BV1yi4y1g7ro?p=3)
 
-YOLOv3 SPP代码的分析：
+YOLOv3 SPP代码的分析:
 [https://www.bilibili.com/video/BV1t54y1C7ra](https://www.bilibili.com/video/BV1t54y1C7ra)
