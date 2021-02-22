@@ -131,7 +131,7 @@ cfg_path = "/home/mist/yolov3_spp/cfg/yolov3-spp.cfg"
 ## 8 测试结果
 ![result](https://github.com/Zhang-Jing-Xuan/YoloV3_SPP/blob/main/test_result.jpg)
 
-## 参考链接
+## 9 参考链接
 PascalVOC数据集介绍以及使用自己的数据集进行训练:
 [https://b23.tv/F1kSCK](https://b23.tv/F1kSCK)
 
