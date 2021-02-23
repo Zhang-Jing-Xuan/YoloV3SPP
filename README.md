@@ -123,6 +123,7 @@ cfg_path = "/home/mist/yolov3_spp/cfg/yolov3-spp.cfg"
 * 确保提前下载好对应预训练模型权重
 * 若要使用单GPU训练或者使用CPU训练，直接使用train.py训练脚本
 * 若要使用多GPU训练，使用```python -m torch.distributed.launch --nproc_per_node=8 --use_env train_multi_GPU.py```指令,```nproc_per_node```参数为使用GPU数量
+* 运行train_predict.ipynb相关代码
 
 ## YOLOv3 SPP框架图
 ![yolov3spp](https://github.com/Zhang-Jing-Xuan/YoloV3_SPP/blob/main/yolov3spp.png) 
